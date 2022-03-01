@@ -498,20 +498,33 @@
          </div> -->
 
     <!-- Footer-->
-    <footer class="p-3 mt-0 pb-1 bg-dark text-white  ">
-        <div class="row pt-5 d-sm-flex d-block">
-            <div class="col col-lg-3 d-none d-lg-flex d-flex justify-content-around">
-                <div class="w-50">
-                    <img class="col-12 m-auto p-auto" src="../image/logoname.png" alt="be enat menged logo on footer"
-                        width="80px">
+    <footer id="footer" class="footer bg-dark">
+        <div class="footer-main">
+          <div class="container">
+            <div class="row justify-content-between">
+              <div class="col-lg-4 col-md-6 footer-widget footer-about">
+                <h3 class="widget-title text-start">About Us</h3>
+                <img loading="lazy" width="150px" class="footer-logo" src="/image/logoname.png" alt="be enat menged logo">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci done.</p>
+                <!-- Footer social end -->
+              </div><!-- Col end -->
+    
+              <div class="col-lg-4 col-md-6 footer-widget mt-5 mt-md-0">
+                <h3 class="widget-title text-start">Working Hours</h3>
+                <div class="working-hours">
+                  We work 7 days a week, every day excluding major holidays. Contact us if you have an emergency, with our
+                  Hotline and Contact form.
+                  <br><br> Monday - Friday: <span class="text-right">10:00 - 16:00 </span>
+                  <br> Saturday: <span class="text-right">12:00 - 15:00</span>
+                  <br> Sunday and holidays: <span class="text-right">09:00 - 12:00</span>
                 </div>
-            </div>
-            <div class="d-none d-md-block col col-md-1 col-1 mx-auto text-center"></div>
-
-            <div class="col col-7 col-md-4 my-2 col-6 mx-auto  text-center text-md-start  mb-5 ">
-                <h2>ADDRESS</h2><br>
+              </div><!-- Col end -->
+    
+              <div class="col-lg-3 col-md-6 mt-5 mt-lg-0 footer-widget">
+                  <div><h3 class="widget-title text-start ">Address</h3></div>
+                
                 <ul class="text-decoration-none  list-unstyled ">
-                    <li><a class="text-light py-2  d-flex  text-decoration-none "
+                    <li><a class="py-2  d-flex  text-decoration-none "
                             href="https://www.google.com/maps/search/6+kilo+university/@9.045154,38.7569497,15.79z"
                             target="_blank">
                             <div style="width:25px">
@@ -521,20 +534,24 @@
                         </a>
                     </li>
 
-                    <li><a class="text-light py-2  d-flex  text-decoration-none "
+                    <li><a class="py-2  d-flex  text-decoration-none "
                             href="https://www.linkedin.com/in/jebessa-dejene-74a674221" target="_blank">
                             <div style="width:25px">
                                 <i class="fab fa-linkedin-in address__icon"></i>
                             </div>
                             <div class="address__item">jebessaD</div>
                         </a></li>
-                    <li><a class="text-light py-2  d-flex  text-decoration-none " href="tel:*804#" target="_blank">
+                    <li class="d-flex">
                             <div style="width:25px">
-                                <i class="fas fa-mobile-alt address__icon"></i>
+                                <i class="fas fa-mobile-alt"></i>
                             </div>
-                            <div class="address__item">+251945818635</div>
-                        </a></li>
-                    <li><a class="text-light py-2  d-flex  text-decoration-none " href="mailto:jebessadejene@gmail.com"
+                            <div class="d-block">
+                                <a class="text-decoration-none " href="tel:*999#" target="_blank">+251945818635</a><br>
+                                <a class="text-decoration-none " href="tel:*999#" target="_blank">+251945818666</a>
+                                
+                            </div>
+                        </li>
+                    <li><a class="py-2  d-flex  text-decoration-none " href="mailto:jebessadejene@gmail.com"
                             target="_blank">
                             <div style="width:25px">
                                 <i class="fas fa-envelope address__icon"></i>
@@ -542,34 +559,19 @@
                             <div class="address__item">jebessadejene@gmail.com</div>
                         </a></li>
                 </ul>
-            </div>
-
-            <div class="col col-md-4 my-2 col-6 mx-auto text-center">
-                <h2>CONTACT</h2><br>
-                <h3>Get <span class="text-primary">in </span> Touch</h3>
-                <ul class="list-unstyled  d-flex text-center justify-content-center pt-4">
-                    <li class="contact__item m-4 "><a class="text-light" href="mailto:jebessadejene@gmail.com"
-                            aria-label="Email link" target="_blank"><i class="far fa-envelope contact__icon"></i></a>
-                    </li>
-                    <li class="contact__item m-4 "><a class="text-light" href="https://github.com/jebessaD/"
-                            aria-label="github link" target="_blank"><i class="fab fa-github contact__icon"></i></a>
-                    </li>
-                    <li class="contact__item m-4 "><a class="text-light"
-                            href="https://www.linkedin.com/in/jebessa-dejene-74a674221" aria-label="linkedin link"
-                            target="_blank"><i class="fab fa-linkedin-in contact__icon"></i></a></li>
-                    <li class="contact__item m-4 "><a class="text-light" href="https://t.me/Jeb_Deju"
-                            aria-label="Telegram link" target="_blank"><i
-                                class="fab fa-telegram-plane contact__icon"></i></a></li>
-                </ul>
-            </div>
-            <div class="col-12 text-center">
-                <hr>
-                <p>Copyright &copy;2022 All rights reserved <span class="text-primary">| </span> <br class="d-sm-none">
-                    developed by <a class="developer text-light text-decoration-none "
-                        href="https://www.linkedin.com/in/jebessa-dejene-74a674221">Jebessa Dejene</a> </p>
-            </div>
+              </div><!-- Col end -->
+            </div><!-- Row end -->
+          </div><!-- Container end -->
+        </div><!-- Footer main end -->
+    
+        <div class="col-12 text-center py-1">
+            <hr>
+            <p>Copyright &copy;2022 All rights reserved <span class="text-primary">| </span> <br class="d-sm-none"> developed by <a
+                    class="developer text-decoration-none "
+                    href="https://www.linkedin.com/in/jebessa-dejene-74a674221">Jebessa Dejene</a> </p>
         </div>
-    </footer>
+
+      </footer><!-- Footer end -->
 
 
 

@@ -63,7 +63,7 @@
   padding: 0px;
   margin: 0;
   
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -232,7 +232,8 @@ sup {
 }
 
 a {
-  color: #ec8e00;
+  /* color: #ec8e00; */
+  color: whitesmoke;
   text-decoration: underline;
 }
 a:hover {
@@ -3475,7 +3476,7 @@ textarea.form-control-lg {
 
 .btn-link {
   font-weight: 400;
-  color: #ec8e00;
+  color: #cc9600;;
   text-decoration: underline;
 }
 .btn-link:hover {
@@ -7484,6 +7485,10 @@ textarea.form-control-lg {
   padding-right: 3rem !important;
   padding-left: 3rem !important;
 }
+.px-6 {
+  padding-right: 5rem !important;
+  padding-left: 5rem !important;
+}
 
 .py-0 {
   padding-top: 0 !important;
@@ -7782,6 +7787,13 @@ textarea.form-control-lg {
 .text-white {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+  
+}
+
+.text-dim {
+  --bs-text-opacity: 1;
+  color: lightgray !important;
+
 }
 
 .text-body {
@@ -11430,7 +11442,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("/image/header-bg.jpg");
+  background-image: url("../image/header-bg.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -11859,3 +11871,51 @@ header.mastheadTwo .mastheadTwo-heading {
     width: 50px;
   }
 }
+
+*{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+
+}
+
+
+.down_icon {
+  animation: MoveUpDown 1.5s forwards infinite;
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 10px;
+  }
+}
+
+
+/* Footer
+================================================== */
+/*- Footer common */
+.footer {
+  /* background-color: #0d0d0d; */
+  color:lightgray;
+}
+
+.footer-main {
+  padding: 80px 0 0px;
+}
+
+.footer .widget-title {
+  font-size: 16px;
+  font-weight: 700;
+  position: relative;
+  margin: 0 0 35px;
+ 
+  text-transform: uppercase;
+  color: #fff;
+  border-left: 3px solid #ffb600;
+  padding-left: 10px !important;
+}
+
